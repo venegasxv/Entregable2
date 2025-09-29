@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Gabriel</title>
+    <style>
+        body{
+          margin:0;
+          font-family: Arial, sans-serif;
+          background:#f5f7fb;
+          color:#0f172a;
+          line-height:1.6;
+        }
+        .page{max-width:1000px; margin:24px auto; padding:0 16px;}
+        header{
+          background:#fff;
+          border:1px solid #e2e8f0;
+          border-radius:14px;
+          padding:20px 24px;
+          margin-bottom:16px;
+        }
+        h1{margin:0 0 6px;}
+        .subtitle{color:#475569; margin:0;}
+        .grid{
+          display:grid; gap:16px;
+          grid-template-columns:320px 1fr;
+        }
+        @media(max-width:860px){.grid{grid-template-columns:1fr;}}
+        .card{
+          background:#fff;
+          border:1px solid #e2e8f0;
+          border-radius:14px;
+          padding:18px 20px;
+          margin-bottom:16px;
+        }
+        h2{margin:0 0 10px; font-size:1.2rem;}
+        h3{margin:12px 0 8px;}
+        img.photo {
+        width: 15%;              
+        border-radius: 50%;      
+        border: 1px solid #e2e8f0;
+        object-fit: cover;        
+}
+        ul,ol{margin:6px 0 10px 20px;}
+        a{color:#2563eb; text-decoration:none;}
+        a:hover{text-decoration:underline;}
+        table{width:100%; border-collapse:collapse;}
+        thead th{background:#f1f5f9; padding:8px; text-align:left;}
+        th,td{border:1px solid #e2e8f0; padding:8px; vertical-align:top;}
+        form{display:grid; gap:10px; max-width:560px;}
+        label{font-weight:600;}
+        input[type="text"],input[type="email"],textarea{
+          width:100%; padding:10px 12px;
+          border:1px solid #e2e8f0; border-radius:10px;
+        }
+        textarea{min-height:120px; resize:vertical;}
+        .btn{
+          border:none; background:#2563eb; color:#fff;
+          padding:10px 14px; border-radius:10px;
+          cursor:pointer; font-weight:600;
+        }
+        .btn:hover{filter:brightness(.95);}
+        @page{size:A4; margin:14mm;}
+      </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>GABRIEL VENEGAS</h1>
+            <p class="subtitle">Ingeniero Electronico •  Villanueva, La Guajira • Correo: gabrielvenegas1118@gmail.com • +57 3046821796</p>
+          </header>
+          <div>
+            <section class="card">
+                <h2>Perfil</h2>
+                <img class="photo" src="Gabriel Venegas.jfif" alt="Foto personal" width="150"/>
+                <p><strong>Contacto</strong><br>
+                    <a href="gabrielvenegas1118@gmail.com"> gabrielvenegas1118@gmail.com</a><br>
+                  <a href="https://github.com/venegasxv">venegasxv</a>
+                </p>
+              </section>
+              <section class="card">
+                <h2>Habilidades</h2>
+                <ul>
+                  <li>HTML5, CSS3</li>
+                  <li>Git y GitHub</li>
+                  <li>Trabajo en equipo</li>
+                  <li>Social Media</li>
+                  <li>C++</li>
+                </ul>
+              </section>
+              <section class="card">
+                <h2>Redes</h2>
+                <ul>
+                  <li><a href="https://github.com/venegasxv">GitHub</a></li>
+                </ul>
+              </section>
+            </aside>
+
+            <!-- Columna derecha -->
+            <main>
+              <section class="card">
+                <h2>PRESENTACIÓN</h2>
+                <p>Mi nombre es Gabriel Venegas. Bienvenidos a mi pagina profesional en formato Curriculum Vitae. Aquí comparto mi perfil, mis pasatiempos y mis tareas prioritarias.</p>
+              </section>
+              <section class="card">
+                <h2>Pasatiempos y Tareas</h2>
+                <div style="display:grid; gap:12px; grid-template-columns:repeat(2,1fr);">
+                  <div>
+                    <h3>PASATIEMPOS</h3>
+                    <ul>
+                      <li>Leer</li>
+                      <li>Escribir poesia</li>
+                      <li>Ir al gimnasio</li>
+                      <li>Entrenar calistenia</li>
+                      <li>Running</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>TAREAS PRIORITARIAS</h3>
+                    <ol>
+                        <li>Hacer deporte</li>
+                      <li>Estudiar Linux</li>
+                      <li>Aprender programación</li>
+                      <li>Escribir</li>
+                    </ol>
+                  </div>
+                </div>
+              </section>
+              <section class="card">
+                <h2>Horario Semanal</h2>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Hora</th>
+                      <th>Lunes</th>
+                      <th>Martes</th>
+                      <th>Miércoles</th>
+                      <th>Jueves</th>
+                      <th>Viernes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>08:00–10:00</th>
+                      <td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <th>10:00–12:00</th>
+                      <td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <th>14:00–16:00</th>
+                      <td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <th>16:00–18:00</th>
+                      <td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <section class="card">
+                <h2>Contáctame</h2>
+                <form action="#" method="post">
+                  <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required />
+                  </div>
+                  <div>
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="tu-correo@ejemplo.com" required />
+                  </div>
+                  <div>
+                    <label for="motivo">Motivo</label>
+                    <textarea id="motivo" name="motivo" placeholder="Cuéntame en qué te puedo ayudar" required></textarea>
+                  </div>
+                  <div>
+                    <input type="submit" class="btn" value="Enviar mensaje" />
+                  </div>
+                </form>
+              </section>
+          </div>
+    </div>
+    
+    
+</body>
+</html>
